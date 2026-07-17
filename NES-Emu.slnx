@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="NES-Emu/NES-Emu.vcxproj" />
+  <Project Path="NES-Emu/NES-Emu.vcxproj" Id="61d1d834-6034-4be9-b4ae-7a69efc64340" />
 </Solution>

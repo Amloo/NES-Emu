@@ -3,3 +3,12 @@ x64/
 Debug/
 Release/
 third_party/
+*.suo
+*.user
+*.userosscache
+*.pdb
+*.obj
+*.ilk
+*.exe
+*.dll
+*.lib
