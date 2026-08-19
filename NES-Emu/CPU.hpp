@@ -14,16 +14,24 @@ private:
 	uint8_t x;
 	uint8_t y;
 	uint16_t pc;
-	uint8_t s;
+	uint8_t sp;
 	uint8_t p;
 
-	void execute(uint8_t opcode);
+	void Execute(uint8_t opcode);
 
 	uint16_t Absolute();
 	uint16_t ZeroPage();
 	uint16_t Immediate();
 
+	void Push(uint8_t value);
+	uint8_t Pop();
+
+	void SetC(bool carry);
 	void SetZ(uint8_t value);
+	void SetI(bool interrupt);
+	void SetD(bool decimal);
+	void SetB(bool flag);
+	void SetV(bool overflow);
 	void SetN(uint8_t value);
 
 	void LDA(uint16_t address);
