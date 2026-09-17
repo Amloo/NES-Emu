@@ -1,1 +1,1 @@
-This project exists as a demonstration of my skill with low‑level systems and as practice with SDL rendering. I have no aspiration of competing with popular emulators, and getting any original NES software to run will be considered a success for this project.
+This project exists as a demonstration of my skill with low‑level systems and as practice with SDL rendering. I am not attempting to compete with popular emulators, and getting any original NES software to run will be considered a success for this project.
